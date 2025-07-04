@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "educhain": {
+      "command": "python",
+      "args": ["Task3_Test_MCP_with_Claude.py"]
+    }
+  }
+}
