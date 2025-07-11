@@ -1,90 +1,65 @@
-🚀 EduChain Claude Integration
-✍️ AI Internship Assignment — Final Submission
-This repository contains the full implementation for the AI Internship Assignment. It showcases how to generate educational content using EduChain, and how to prepare the system for future integration with Claude Desktop via MCP protocol.
+# EduChain MCP Project
 
-🧠 TASK BREAKDOWN
-✅ Task 1: EduChain Setup
-📦 Installed EduChain SDK from satvik314/educhain
+## About the Project
 
-🧪 Used:
+EduChain MCP is a blockchain-based educational management and certification platform aimed at enhancing transparency, security, and trust in academic record-keeping. This project leverages blockchain technology to securely store, verify, and share educational credentials and records.
 
-client.qna_engine.generate_questions(...) → 📘 Generate MCQs
+---
 
-client.content_engine.generate_lesson_plan(...) → 🗂️ Generate Lesson Plans
+## Features
 
-✅ Verified functionality by displaying and saving output.
+- Secure storage of educational credentials on a blockchain  
+- Verification of certificates without intermediaries  
+- Transparent and tamper-proof academic records  
+- User-friendly interface for institutions and students  
+- Permissioned access control for data privacy  
 
-🛠️ Task 2: Build MCP Server
-🧰 Built an MCP server using fastmcp
+---
 
-🔧 Implemented two features:
+## Technologies Used
 
-Tool: generate_mcqs(topic: str, num: int)
+- Blockchain Framework (e.g., Hyperledger, Ethereum)  
+- Backend: [Specify your backend language/framework]  
+- Frontend: [Specify your frontend framework, if any]  
+- Database: [Specify if any off-chain database used]  
+- Smart Contracts: [Details about smart contracts, if applicable]  
 
-Resource: lessonplan://{topic}
+---
 
-💾 Output is:
+## Usage
+- Register as an educational institution or student.
 
-Printed in terminal
+- Upload or request educational credentials.
 
-Saved in Sample_Response.txt
+- Verify certificates through blockchain transactions.
 
-🛑 MCP server is initialized but not run (for Claude, see Task 3)
+- Manage user permissions and data access.
 
-💬 Task 3: Claude Integration (Future-Ready)
-🧱 MCP server initialized with FastMCP(name="EduChain Server")
+(Add screenshots or demo links if available)
 
-🧠 You can register tools like this:
+## Contributing
+Contributions are welcome! Please follow these steps:
 
-@mcp.tool, @mcp.resource, then call mcp.run()
+- Fork the repository
 
-🖥️ When ready, use this Claude config:
+- Create a new branch (git checkout -b feature-name)
 
-json
-Copy
-Edit
-{
-  "mcpServers": {
-    "educhain": {
-      "command": "python",
-      "args": ["Task2_Build_MCP_Server.py"]
-    }
-  }
-}
-📁 FILE STRUCTURE
-📄 File	📌 Description
-Task2_Build_MCP_Server.py	✅ Main MCP-compatible EduChain script
-Sample_Response.txt	📝 Output of generated MCQs and lesson plans
-README.md	📚 This documentation
-claude_desktop_config.json	⚙️ Not included — should be manually created for Claude
+- Commit your changes (git commit -m "Add some feature")
 
-▶️ HOW TO RUN (Task 2)
-💻 Install dependencies:
-pip install educhain fastmcp
+- Push to the branch (git push origin feature-name)
 
-🚀 Run the script:
-python Task2_Build_MCP_Server.py
+- Open a Pull Request
 
-📊 You’ll see:
+Please ensure your code follows the project coding standards and includes relevant tests.
 
-MCQs printed to the terminal
+## License
+Distributed under the MIT License. See LICENSE for more information.
 
-Lesson plan printed below
+## Contact
+- Developer: Akki Maharaj
 
-Both results saved to Sample_Response.txt
+- GitHub: https://github.com/Akki-Maharaj
 
-📚 REFERENCES & CREDITS
-🧠 EduChain SDK: https://github.com/satvik314/educhain
+- Email: akshatg0204@gmail.com
 
-⚙️ FastMCP Docs: https://gofastmcp.com
-
-🖥️ Claude Docs: https://docs.anthropic.com
-
-📬 SUBMISSION INSTRUCTIONS
-✔️ Make sure to include:
-
-Task_Build_MCP_Server.py
-
-Sample_Response.txt
-
-README.md
+---
