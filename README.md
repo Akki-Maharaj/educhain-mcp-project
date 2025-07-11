@@ -8,11 +8,14 @@ EduChain MCP is a blockchain-based educational management and certification plat
 
 ## Features
 
-- Secure storage of educational credentials on a blockchain  
-- Verification of certificates without intermediaries  
-- Transparent and tamper-proof academic records  
-- User-friendly interface for institutions and students  
-- Permissioned access control for data privacy  
+- **Secure Credential Storage:** Educational credentials are securely stored on a blockchain, ensuring tamper-proof and transparent records.
+- **Instant Verification:** Certificates can be verified instantly without intermediaries, simplifying trust validation.
+- **Decentralized Data Management:** Uses decentralized storage (e.g., IPFS) to ensure availability and prevent data loss.
+- **User Roles & Permissions:** Supports different user roles such as students, institutions, and employers with permissioned access.
+- **AI-Powered Content Generation:** Utilizes AI models like Claude AI to generate educational materials, such as multiple-choice questions and lesson plans.
+- **User-Friendly Interface:** Easy-to-use frontend built with React.js for seamless interaction by users.
+- **Blockchain-Backed Certification:** Issues and verifies certificates using the EduChain blockchain framework.
+
 
 ---
 
