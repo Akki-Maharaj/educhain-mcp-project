@@ -18,24 +18,33 @@ EduChain MCP is a blockchain-based educational management and certification plat
 
 ## Technologies Used
 
-- Blockchain Framework (e.g., Hyperledger, Ethereum)  
-- Backend: [Specify your backend language/framework]  
-- Frontend: [Specify your frontend framework, if any]  
-- Database: [Specify if any off-chain database used]  
-- Smart Contracts: [Details about smart contracts, if applicable]  
+### Backend & Server
+
+- **FastMCP**: A framework for building Model Context Protocol (MCP) servers, facilitating communication between AI models and external systems.
+- **Python 3.11**: The programming language used for backend development.
+- **Claude Desktop**: An AI model integrated into the system for generating educational content.
+
+### AI & Content Generation
+
+- **Claude AI**: Utilized for generating multiple-choice questions (MCQs) and lesson plans.
+- **OpenRouter**: A platform for routing requests to AI models, used here to interface with Claude.
+- **DeepSeek**: An AI model accessed via OpenRouter for educational content generation.
+
+### Frontend
+
+- **React.js**: A JavaScript library for building user interfaces, used for the frontend development of the platform.
+
+### Blockchain & Certification
+
+- **EduChain**: The blockchain framework employed for issuing and verifying educational credentials.
+- **IPFS**: Used for decentralized storage of educational content and certificates.
+
+### Configuration & Integration
+
+- **JSON**: Configuration files (e.g., `claude_desktop_config.json`) used for setting up and integrating various components.
+
 
 ---
-
-## Usage
-- Register as an educational institution or student.
-
-- Upload or request educational credentials.
-
-- Verify certificates through blockchain transactions.
-
-- Manage user permissions and data access.
-
-(Add screenshots or demo links if available)
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
